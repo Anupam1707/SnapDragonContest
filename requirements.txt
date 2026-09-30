@@ -1,0 +1,17 @@
+# GuardianEdge: Real-Time On-Device DLP & Threat Neutralization
+# Powered by Snapdragon® X Hexagon NPU & Qualcomm AI Hub
+
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.6.0
+onnxruntime>=1.17.0
+torch>=2.2.0
+transformers>=4.38.0
+numpy>=1.26.0
+python-multipart>=0.0.9
+reportlab>=4.1.0
+python-docx>=1.1.0
+python-pptx>=1.0.0
+Pillow>=10.0.0
+rich>=13.7.0
+pytest>=8.0.0
