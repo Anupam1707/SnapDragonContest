@@ -129,10 +129,6 @@ python -m guardian_edge.cli benchmark
 ## 📁 Repository Structure
 
 ```
-├── GuardianEdge_Pitch_Presentation.pptx   # Official Short Pitch Presentation (PPTX)
-├── GuardianEdge_Pitch_Presentation.pdf    # Official Short Pitch Presentation (PDF)
-├── GuardianEdge_Project_Description.docx  # Official Brief Project Description (DOCX)
-├── GuardianEdge_Project_Description.pdf   # Official Brief Project Description (PDF)
 ├── guardian_edge/                         # Core Python package
 │   ├── config.py                          # Hardware profile & policy definitions
 │   ├── detector.py                        # Dual-stage heuristic + NPU neural detector
@@ -144,16 +140,15 @@ python -m guardian_edge.cli benchmark
 │   └── cli.py                             # CLI runner & background daemon
 ├── benchmarks/                            # Performance & energy suite
 │   └── benchmark_suite.py                 # NPU vs CPU vs GPU vs Cloud benchmarks
-├── scripts/                               # Automation & export scripts
-│   ├── compile_for_aihub.py               # Qualcomm AI Hub compilation script
-│   ├── generate_presentation.py           # PPTX generator
-│   ├── generate_pitch_pdf.py              # PDF slides generator
-│   └── generate_brief_doc.py              # DOCX/PDF proposal generator
+├── scripts/                               # Optimization & compilation scripts
+│   └── compile_for_aihub.py               # Qualcomm AI Hub compilation pipeline
 ├── static/                                # Web dashboard assets
 │   └── index.html                         # Dark-mode glassmorphism SOC dashboard
 ├── tests/                                 # Automated test suite
 │   └── test_guardian.py                   # Pytest test cases
-└── requirements.txt                       # Python dependencies
+├── requirements.txt                       # Python dependencies
+├── LICENSE                                # Apache 2.0 license
+└── README.md                              # Project documentation
 ```
 
 ---
