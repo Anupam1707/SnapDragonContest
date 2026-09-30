@@ -11,3 +11,9 @@ venv/
 htmlcov/
 *.db
 .DS_Store
+
+# Pitch Presentation and Document Generation Scripts & Artifacts
+scripts/generate_*.py
+*.pptx
+*.docx
+*.pdf
